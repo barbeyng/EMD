@@ -26,7 +26,7 @@
 <body>
     <div class="container-fluid">
         <!-- START | Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #f0ad4e!important;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-4" style="background-color: #f0ad4e!important;">
             <a class="navbar-brand" href="#"><img src="images/image2vector.png" class="img-fluid emd-logo"
                     alt="Elite Media Design" title="top of page"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -35,11 +35,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#our-mission">Our Mission</a>
-                    <a class="nav-item nav-link" href="#our-services">Services</a>
-                    <a class="nav-item nav-link" href="#our-clients">Our Clients</a>
-                    <a class="nav-item nav-link" href="#contact-us">Contact Us</a>
+                    <a class="nav-item nav-link active px-4" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link px-4" href="#our-mission">Our Mission</a>
+                    <a class="nav-item nav-link px-4" href="#our-services">Services</a>
+                    <a class="nav-item nav-link px-4" href="#our-clients">Our Clients</a>
+                    <a class="nav-item nav-link px-4" href="#contact-us">Contact Us</a>
                 </div>
             </div>
         </nav>
@@ -48,22 +48,24 @@
         <!-- START | BG -->
         <section>
             <div class="row">
-                <div class="col-xl">
-                    <img src="images/bg.jpg" class="img-fluid emd-bg" alt="white phone with multicolored lights">
-                    <h2 class="bg-text"><span class="emd-vision">Our vision</span> is to create a business world full of
-                        prosperity,
-                        meaning, and connection for all</h2>
+                <div class="col emd-bg">
+                    <img src="images/bg.jpg" class="img-fluid" alt="white phone with multicolored lights">
+                    <div class="bg-text text-center"><span class="emd-vision1"><strong>Our vision is to create</span>
+                        <br>
+                        <span class="emd-vision2">a business world full of</span>
+                        <span class="emd-vision-highlight">prosperity,
+                        meaning, and connection</span> <span class="emd-vision2">for all</span></strong></div>
                 </div>
             </div>
         </section>
         <!-- END | BG -->
 
         <!-- START | Our Mission -->
-        <section id="our-mission">
+        <section id="our-mission" class="pb-5">
             <div class="row pt-5 mb-5">
                 <h2>Meet Henry and John...</h2>
             </div>
-            <div class="row">
+            <div class="row pb-5">
                 <div class="col-sm">
                     <img src="images/henry.jpg" class="img-fluid img-henry float-right" alt="image credit: Utopia">
                 </div>
@@ -72,19 +74,23 @@
                         alt="image credit: Imansyah Muhamad Putera">
                 </div>
             </div>
-            <div class="row">
-                <p class="px-5">EMD was founded in 2005 in a garage when two college roommates, Henry and John, put
+            <div class="row mission" style="margin: auto;">
+                <p class="text-center">EMD was founded in 2005 in a garage when two college roommates, Henry
+                    and John, put
                     their minds
                     together
                     to
-                    create all things web related. The office, now located in the IDS Center in downtown Minneapolis,
+                    create all things web related. The office, now located in the IDS Center in downtown
+                    Minneapolis,
                     has
                     over
                     30 employees.</p>
-                <p class="emd-mission px-5">We strive to deliver value in our service, and to understand with respect
+                <p class="text-center"><span class="mission-text">Our Mission </span>We strive to deliver value in
+                    our service, and to understand with respect
                     all of
                     our
-                    clients needs and to provide a partnership that is created when we host our clients web services,
+                    clients needs and to provide a partnership that is created when we host our clients web
+                    services,
                     develop
                     their site, market their product/service or simply give them advice.</p>
             </div>
@@ -98,7 +104,7 @@
                     <h2 class="text-center py-5">Our Services</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-right: 0px!important;">
                 <div class="col-6 p-5 emd-services">
                     <img src="images/seo.jpg" class="img-fluid" alt="SEO">
                     <div class="hover-fx">
@@ -199,20 +205,20 @@
                 </div>
             </div>
             <div class="row py-5">
-                <div class="col-sm-2 offset-sm-1">
+                <div class="col-sm-2 col-xs-6 offset-sm-1">
                     <img src="images/walmart.png" class="img-fluid mx-auto d-block emd-clients" alt="Walmart logo">
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-2 col-xs-6">
                     <img src="images/bestbuy.png" class="img-fluid mx-auto d-block emd-clients" alt="Bestbuy logo">
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-2 col-xs-6">
                     <img src="images/fleetfarm.png" class="img-fluid mx-auto d-block emd-clients" alt="Fleetfarm logo">
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-2 col-xs-6">
                     <img src="images/clamoutdoors.png" class="img-fluid mx-auto d-block emd-clients"
                         alt="Clam Outdoors">
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-2 col-xs-6">
                     <img src="images/blackfishgear.png" class="img-fluid mx-auto d-block emd-clients"
                         alt="Blackfish Gear">
                 </div>
@@ -275,7 +281,9 @@
                     </div>
                 </div>
                 <div class="col-6 p-5">
-                    <h3>Customer Service</h3>
+                    <p><i class="fas fa-phone-square-alt"></i>: 763-123-1234</p>
+                    <p><i class="fas fa-envelope-square"></i>: info@elitemediadesign.com</p>
+                    <p><i class="fas fa-map-marked-alt"></i>: 80 S 8th St, Suite #005 Minneapolis, MN 55402</p>
                 </div>
             </div>
         </footer>
