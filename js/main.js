@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $(".content a").each(function (index, element) {
+    $(".content").each(function (index, element) {
         $.ajax({
             url: "https://www.instagram.com/goblue42agency/?__a=1",
             contentType: "application/json",
@@ -16,7 +16,7 @@ $(document).ready(function () {
                     '</div><br> \n ' +
                     '<a href="' + result.url + '" class="url-info"><i class="far fa-link"></i>' + result.url + '</a> \n ' +
                     '</div></a>');
-                // $(element).remove();
+                $(element).remove();
             }
         })
     });
