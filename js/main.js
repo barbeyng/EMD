@@ -9,7 +9,6 @@ $(document).ready(function () {
                     '<a href="' + result.graphql.user.edge_owner_to_timeline_media.edges[0].node.display_url + '"> \n ' +
                     '<div class="link-preview"> \n ' +
                     '<div class="preview-image" style="background-image:url(' + result.graphql.user.edge_owner_to_timeline_media.edges[0].node.media_preview + ');"></a>');
-                $(element).remove();
             }
         })
     });
