@@ -1,0 +1,151 @@
+/* START | Brand Standards */
+body {
+    font-family: 'Montserrat'!important;
+}
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+/* END | Brand Standards */
+
+/* START | Navbar */
+.bg-light {
+    background-color: #f0ad4e !important;
+}
+/* END | Navbar */
+
+/* START | LOGO */
+.emd-logo {
+    width: 15%;
+}
+/* END | LOGO */
+
+/* START | BG */
+.emd-bg {
+    filter: grayscale(80%);
+    width: 100%;
+    /* position: absolute; */
+}
+.bg-text {
+    /* position: relative; */
+    width: 40%;
+    padding: 2%;
+    left: 50%;
+    top: 125px;
+    background-color: #f0ad4e;
+    opacity: .8;
+}
+.emd-vision {
+    font-weight: 900;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+/* END | BG */
+
+/* START | Our Mission */
+#our-mission {
+    margin: auto;
+    background-color: #f0ad4e;
+}
+#our-mission h2 {
+    margin: auto;
+    color: #fff;
+}
+.img-henry, .img-john {
+    width: 450px;
+    border-radius: 450px;
+}
+.img-henry img, .img-john img {
+    margin: auto;
+}
+/* END | Our Mission */
+
+/* START | Our Services */
+.emd-services {
+    position: relative;
+}
+.hover-fx {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(	0, 47, 108,0.8);
+}
+.hover-text {
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hover-text hr {
+    border: .5px #fff solid;
+    width: 32%;
+}
+.emd-services:hover .hover-fx {
+    opacity: 1;
+}
+@media(max-width:1079px) {
+    .emd-services h2 {
+        font-size: 18px;
+    }
+    .hover-text {
+        border: #fff solid 1px;
+        height: inherit;
+        width: inherit;
+        font-size: 16px;
+        padding: 5px;
+    }
+    .hover-text h2, .hover-text p {
+        padding: 10px;
+    }
+    .hover-fx {
+        overflow: auto;
+    }
+    .emd-services .hover-fx {
+        opacity: 1;
+    }
+}
+/* END | Our Services */
+
+/* START | Our Clients */
+#our-clients {
+    background-color: #002f6c;
+    color: #fff;
+}
+.break {
+    border: .5px #fff solid;
+    max-width: 40%;
+}
+#our-clients img {
+    max-height: 61.5px;
+}
+/* END | Our Clients */
+
+/* START | Contact Us */
+#contact-us {
+    color: #fff;
+    background-image: url("../images/contactbg.jpg");
+    background-size: cover;
+}
+.form-control {
+    color: #fff !important;
+    background-color: rgba(0,0,0,0) !important;
+    border-radius: 0!important;
+}
+/* END | Contact Us */
+
+/* START | Footer */
+footer {
+    background-color: #f0ad4e;
+}
+/* END | Footer */
