@@ -176,6 +176,11 @@ body {
     background-color: rgba(0,0,0,0) !important;
     border-radius: 0!important;
 }
+@media (max-width: 414px) {
+    #contact-us {
+        background-size: auto;
+    }
+}
 /* END | Contact Us */
 
 /* START | Footer */
